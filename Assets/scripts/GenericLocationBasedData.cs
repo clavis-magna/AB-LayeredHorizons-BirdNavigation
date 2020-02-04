@@ -58,6 +58,8 @@ public class GenericLocationBasedData : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        StartCoroutine("runsetup");
+
         // grab world scale from the commonData script
         // set in the inspector
         scaleX = 400000; // (int)commonData.mapScale.x;
@@ -77,13 +79,14 @@ public class GenericLocationBasedData : MonoBehaviour
             {
                 // display short arbitrary text at a lat/lon location
                 //
+
+                // convert from lat/long to world units
+                // using the helper method in the 'helpers' script
+                float[] thisXY = helpers.getXYPos(float.Parse(data[i][latitudeColumnHeader].ToString()), float.Parse(data[i][longitudeColumnHeader].ToString()), scaleX, scaleY);
+                GameObject thisMarker = Instantiate(marker, new Vector3(thisXY[0], 0.05f, thisXY[1]), Quaternion.identity);
+
                 if (displayWord)
                 {
-                    // convert from lat/long to world units
-                    // using the helper method in the 'helpers' script
-                    float[] thisXY = helpers.getXYPos(float.Parse(data[i][latitudeColumnHeader].ToString()), float.Parse(data[i][longitudeColumnHeader].ToString()), scaleX, scaleY);
-                    GameObject thisMarker = Instantiate(marker, new Vector3(thisXY[0], 0.05f, thisXY[1]), Quaternion.identity);
-
                     // creating from scratch version
                     // create empty gameobject and name it the text we want to display
                     GameObject TextObj = new GameObject((string)data[i][wordColumnHeader]);
@@ -101,7 +104,7 @@ public class GenericLocationBasedData : MonoBehaviour
                     // now move the whole things to its correct location
                     TextObj.transform.position = new Vector3(thisXY[0], 0.05f, thisXY[1]);
                     TextObj.transform.parent = layerParent.transform;
-                    
+
                 }
             }
         }
@@ -111,6 +114,12 @@ public class GenericLocationBasedData : MonoBehaviour
         {
             StartCoroutine("getData");
         }
+    }
+
+    IEnumerator runsetup()
+    {
+        yield return 0;
+        
     }
 
     // Update is called once per frame

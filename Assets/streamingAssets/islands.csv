@@ -1,0 +1,44 @@
+id,name,latitude,longitude,visibility,code,marked,lat_real,long_real,Country,Country Code 2,Country code 3
+1,Anuta,89.35,52.08,0.7,7,0,-11.6224,169.866,Solomon Islands,SB,SLB
+2,Nendo,85.41,51.26,0.5,7,0,-10.7245,165.923,Solomon Islands,SB,SLB
+3,Tikopia,88.31,52.8,1,7,0,-12.286,168.815,Solomon Islands,SB,SLB
+4,Vanikoro,86.4,52.16,1,7,0,-11.6478,166.9,Solomon Islands,SB,SLB
+5,Kapigamarangi,74.26,39.45,0.5,7,0,1.051,154.773,Micronesia,FM,FSM
+6,Nukuoro,74.46,36.65,0.5,7,0,3.8447,154.941,Micronesia,FM,FSM
+7,Fataka,89.71,52.38,0.7,7,0,-11.9134,170.202,Solomon Islands,SB,SLB
+8,TorresN,85.96,53.53,1,7,0,-13.2045,166.944,Vanuatu,VU,VUT
+9,Rennell,79.55,52.25,0.7,7,0,-11.6632,160.265,Solomon Islands,SB,SLB
+10,Bellona,79.16,51.8,0.7,7,0,-11.3148,159.813,Solomon Islands,SB,SLB
+11,OntongJava,79,45.83,0.5,7,0,-5.1645,159.539,Solomon Islands,SB,SLB
+12,Nuguria,74.16,43.75,0.5,7,0,-3.1608,154.943,PNG,PG,PNG
+13,Nukumanu,78.93,45.03,0.5,7,0,-4.5176,159.385,PNG,PG,PNG
+14,Takuu,76.58,45.33,0.5,7,0,-4.76,156.971,PNG,PG,PNG
+15,SanCristobalS,81.91,50.75,1,7,0,-10.2,161.29,Solomon Islands,SB,SLB
+16,SanCristobalN,80.8,50.71,1,7,0,-10.844,162.37,Solomon Islands,SB,SLB
+17,Ulawa,81.5,50.3,1,7,0,-9.772,161.97,Solomon Islands,SB,SLB
+18,Malaita1,80.55,49.5,1,7,0,-9.733,161.567,Solomon Islands,SB,SLB
+19,Malaita2,79.55,48.75,1,7,0,-8.317,160.59,Solomon Islands,SB,SLB
+20,SantaIsabel1,78.58,48.55,1,7,0,-8.564,159.859,Solomon Islands,SB,SLB
+21,SantaIsabel2,77.71,47.83,1,7,0,-7.381,158.2,Solomon Islands,SB,SLB
+22,ChoiseulS,76.55,47.83,1,7,0,-7.405,157.628,Solomon Islands,SB,SLB
+23,ChoiseulN,75.91,47,1,7,0,-6.597,156.474,Solomon Islands,SB,SLB
+24,Bougainville1,75.55,47.2,1,7,0,-6.781,155.914,PNG,PG,PNG
+25,Bougainville2,75,46.5,1,7,0,-6.207,155.235,PNG,PG,PNG
+26,Bougainville3,74.33,45.83,1,7,0,-5.024,154.633,PNG,PG,PNG
+27,BukaN,74.16,45.5,1,7,0,-5.0222,154.616,PNG,PG,PNG
+28,Duff,86.8,50.41,1,7,0,-9.834,167.125,Solomon Islands,SB,SLB
+29,Utupua,86.08,51.83,1,7,0,-11.263,166.526,Solomon Islands,SB,SLB
+30,Naunonga,86.4,52.1,0,7,0,-11.694,166.882,Solomon Islands,SB,SLB
+31,Lizard,64.9,55.2,1,8,1,-14.666,145.483,AU,AU,AUS
+32,Tagula,73.1,52.1,1,8,1,-11.532,153.453,PNG,PG,PNG
+33,Rossell,73.8,52,1,8,1,-11.3599,154.183,PNG,PG,PNG
+34,Muyua,72.3,49.7,1,8,1,-9.135,152.74,PNG,PG,PNG
+35,Misima,72.3,51.2,1,8,1,-10.6707,152.789,PNG,PG,PNG
+36,Panawina,72.5,51.7,1,8,1,-11.1757,153.009,PNG,PG,PNG
+37,Panatinance,72.6,51.7,1,8,1,-11.2191,153.199,PNG,PG,PNG
+38,Moresby Is,70.5,51.1,1,8,1,-10.6264,151.012,PNG,PG,PNG
+39,Daugo Is,66.6,50,1,8,1,-9.508,147.079,PNG,PG,PNG
+40,Santo,66.6,50,1,8,1,-15.05,166.61,Vanuatu,VU,VUT
+41,New Britain1,66.6,50,1,8,1,-5.73,148.4,PNG,PG,PNG
+42,New Britain2,66.6,50,1,8,1,-5.99,151.09,PNG,PG,PNG
+43,New Britain3,66.6,50,1,8,1,-4.38,152.35,PNG,PG,PNG
