@@ -14,21 +14,20 @@ public static class helpers
     {
         float[] xy = new float[2];
         
+        // the top left corner is at 140 longitude, we want to move this to zero
+        // to avoid a world so big we get floating point errors
+        // latitude crosses the zero line so we are ok there, stays within safe bounds
         lon = lon - 140;
         float x = (scaleY * lon / 180); //- 180;
         float y = (scaleX * lat / 360);
-
-
-        //float x = (scaleX / 360.0f) * (180 + lon);
-        //float y = (scaleY / 180.0f) * (90 - lat);
-
-        // float x = (scaleX) *(180 + lat) / 360;
-        // float y = (scaleY) *(90 - lon) / 180;
 
         xy[0] = x;
         xy[1] = y;
         return xy;
     }
+
+    // these are other alternate options from above stack overflow page
+    // that helped inform the above
 
     // int x =  (int) ((MAP_WIDTH/360.0) * (180 + lon));
     // int y = (int)((MAP_HEIGHT / 180.0) * (90 - lat));
@@ -36,7 +35,8 @@ public static class helpers
     // x = (total width of image in px) * (180 + latitude) / 360
     // y = (total height of image in px) * (90 - longitude) / 180
 
-
+    
+    // remap number from one range to another
     public static float Remap(this float value, float from1, float to1, float from2, float to2)
     {
         return (value - from1) / (to1 - from1) * (to2 - from2) + from2;
