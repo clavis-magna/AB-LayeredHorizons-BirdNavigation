@@ -554,6 +554,90 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1353219648
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8808770997621128997, guid: fb89640d5eed9b94f9c5289694d12d43,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23850.996
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808770997621128997, guid: fb89640d5eed9b94f9c5289694d12d43,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808770997621128997, guid: fb89640d5eed9b94f9c5289694d12d43,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11683.522
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808770997621128997, guid: fb89640d5eed9b94f9c5289694d12d43,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808770997621128997, guid: fb89640d5eed9b94f9c5289694d12d43,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808770997621128997, guid: fb89640d5eed9b94f9c5289694d12d43,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808770997621128997, guid: fb89640d5eed9b94f9c5289694d12d43,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808770997621128997, guid: fb89640d5eed9b94f9c5289694d12d43,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808770997621128997, guid: fb89640d5eed9b94f9c5289694d12d43,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808770997621128997, guid: fb89640d5eed9b94f9c5289694d12d43,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808770997621128997, guid: fb89640d5eed9b94f9c5289694d12d43,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808770997621128997, guid: fb89640d5eed9b94f9c5289694d12d43,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808770997621128997, guid: fb89640d5eed9b94f9c5289694d12d43,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808770997621128997, guid: fb89640d5eed9b94f9c5289694d12d43,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808770997621128999, guid: fb89640d5eed9b94f9c5289694d12d43,
+        type: 3}
+      propertyPath: m_Name
+      value: birdStartLocation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fb89640d5eed9b94f9c5289694d12d43, type: 3}
 --- !u!1 &1393142321
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,17 +761,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1408058906}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27d8e7fda27799049b8ce2d817895236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CSVFileName: solomons-hypsographic.csv
-  latitudeColumnHeader: LAT
-  longitudeColumnHeader: LONG
-  marker: {fileID: 5117477181756641193, guid: 4572a2621eb027c44a90784406e9cf82, type: 3}
+  CSVFileName: namedLocations.csv
+  latitudeColumnHeader: lat
+  longitudeColumnHeader: lon
+  marker: {fileID: 5117477181756641193, guid: 839ca069fcc897d49b47b5e32e590e5f, type: 3}
   displayWord: 0
-  wordColumnHeader: FULL_NAME_RO
+  wordColumnHeader: fullnamero
   fontSize: 12
   yHeight: 5
   textColor: {r: 0, g: 0, b: 0, a: 0}
