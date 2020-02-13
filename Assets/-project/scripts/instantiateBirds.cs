@@ -15,11 +15,11 @@ public class instantiateBirds : MonoBehaviour
             float outSpeed = Random.Range(5.5f, 11.11f);
             float backSpeed = Random.Range(11.11f, 22.22f);
             GameObject newBird = Instantiate(bird, transform.position, Quaternion.identity);
-            movementTest movementTestScript = newBird.GetComponent<movementTest>();
+            birdDailyFlight movementTestScript = newBird.GetComponent<birdDailyFlight>();
             movementTestScript.angleToFly = angle;
             movementTestScript.distancePerSecondOut = outSpeed;
             movementTestScript.distancePerSecondBack = backSpeed;
-
+            newBird.transform.parent = this.gameObject.transform;
         }
     }
 
